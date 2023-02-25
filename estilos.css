@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background: #ca444f27;
+}
+
+h1{
+	color: crimson;
+	text-align: center;
+}
+.form-register{
+	width: 98%;
+	max-width: 500px;
+	margin: auto;
+	background:  white;
+	border-radius: 10px;
+}
+
+.form__titulo{
+	background: rgb(0, 38, 255);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 5px solid crimson;
+}
+.contenedor-inputs{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; /*para que nos de un espacio entre los inputs del formulario*/
+}
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border:1px solid rgb(31, 36, 95); /*Para darle un color a los border de las casillas*/
+}
+.input-48{
+	width: 48%;
+}
+.input-100{
+	width: 100%;
+}
+.btn-enviar{
+	background: crimson;
+	color: #fff;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size:20px;
+
+}
+.btn-enviar active{
+	transform: scale(1.10); /*Para que cuando le demos click al boton se ponga más grande*/
+    
+}
+.form__link{
+	width: 100%;
+	margin:7px;
+	text-align: center;
+	font-size: 14px;
+}
+footer{
+	width: 100%;
+	margin:7px;
+	text-align: center;
+	font-size: 14px;
+}
